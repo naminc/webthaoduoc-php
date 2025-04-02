@@ -1,0 +1,24 @@
+<?php
+if(empty($DB->num_rows())){
+   $DB->query();
+   $DB->query();
+}
+if(empty($DB->num_rows())) {;
+ $DB->query();
+}
+if(empty($DB->num_rows())){
+  $DB->query();
+}
+if(empty($DB->num_rows())){
+  $DB->query();
+}
+if(empty($DB->num_rows())){
+  $DB->query();
+}
+if(empty($DB->num_rows())){
+  $DB->query();
+}
+if(empty($DB->num_rows())){
+  $DB->query();
+}
+?>

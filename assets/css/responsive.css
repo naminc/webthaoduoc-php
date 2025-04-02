@@ -1,0 +1,2701 @@
+@media (min-width: 1400px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css start]
+    ////////////////////////////////////////////////////////////// */
+    .shop-details {
+        margin-left: 5px;
+    }
+
+    .shop-details h3 {
+        margin-right: 0;
+    }
+
+    .shop-details .call a {
+        padding-left: 7px;
+    }
+
+    .shop-details .mail a {
+        padding-left: 7px;
+    }
+
+    .shop-details h3 {
+        margin-right: 6px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css start]
+    ////////////////////////////////////////////////////////////// */
+    .progress {
+        width: 424px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [services part css start]
+    ////////////////////////////////////////////////////////////// */
+    #services .content-block h2 {
+        font-size: 18px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [services part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css start]
+    ////////////////////////////////////////////////////////////// */
+    .flipper-dark {
+        font-size: 120px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css end]
+    ////////////////////////////////////////////////////////////// */
+}
+
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css start]
+    ////////////////////////////////////////////////////////////// */
+    .shop-details h3 {
+        display: none;
+    }
+
+    .shop-details .call a {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css end ]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [ Slider  part css start ]
+    ////////////////////////////////////////////////////////////// */
+    #wrapper .content {
+        max-width: 920px;
+    }
+
+    .bg-shape img {
+        width: 397px;
+        left: 170px;
+    }
+
+    .product-slider__content {
+        padding-left: 220px;
+    }
+
+    .product-slider {
+        width: 80%;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [ Slider part css end ]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [ breadcrumb   part css start]
+    ////////////////////////////////////////////////////////////// */
+    .banner-title {
+        font-size: 35px;
+    }
+
+    .about_header_title {
+        font-size: 32px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [breadcrumb  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [ Header  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .wrap-icon-header-item {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [ Header part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [specification part css start]
+    ////////////////////////////////////////////////////////////// */
+    .specification {
+        margin-top: 0;
+    }
+
+    .specification-info-col {
+        margin-top: 25px;
+    }
+
+    .specification-detail h3 {
+        font-size: 15px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [ specification part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe part css start]
+    ////////////////////////////////////////////////////////////// */
+    .modal-newsletter {
+        min-width: 925px;
+    }
+
+    #subscribe-modal.modal {
+        top: 66px;
+    }
+
+    .modal-newsletter .modal-content {
+        padding: 80px 34px 80px 460px;
+    }
+
+    .modal-newsletter .modal-header .btn-close {
+        right: -46px;
+        top: -92px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Banner part css start]
+    ////////////////////////////////////////////////////////////// */
+    #banner-poster {
+        padding: 78px 0;
+    }
+
+    .banner-txt {
+        padding: 27px 16px;
+    }
+
+    .banner-name {
+        font-size: 20px;
+    }
+
+    .banner-blog.product-hot::after {
+        font-size: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner-blog.product-hot::before {
+        font-size: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Banner  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Slider part css start]
+    ////////////////////////////////////////////////////////////// */
+    .product-img {
+        width: 430px;
+        left: 20%;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Slider  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Modal part css start]
+    ////////////////////////////////////////////////////////////// */
+    .cart-images {
+        margin-top: 45px;
+    }
+
+    .slider__col {
+        width: 310px;
+        margin-right: 8px;
+    }
+
+    .cart-main-body {
+        padding: 24px 30px 0 30px;
+    }
+
+    .slider__thumbs {
+        height: 375px;
+    }
+
+    .slider__images {
+        height: 375px;
+        width: 374px;
+    }
+
+    .add-to {
+        justify-content: center;
+    }
+
+    .cart-product-coupon {
+        align-items: center;
+        padding: 10px 6px;
+        text-align: center;
+        justify-content: center;
+        background-color: var(--brand);
+        margin-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 403px;
+        border-radius: 10px;
+    }
+
+    .cart-product-coupon {
+        padding: 10px 6px;
+        width: 100%;
+    }
+
+    .cart-product-sizes .form-select {
+        font-size: 13px;
+    }
+
+    .cart-product-coupon input {
+        padding: 3px 3px;
+        margin: 5px 0px 5px 0;
+        font-size: 12px;
+    }
+
+    #wrapper .prev {
+        left: -21%;
+    }
+
+    .cart-product-coupon .apply-coupon-button {
+        font-size: 13px;
+        min-width: 110px;
+        height: 32px;
+        padding: 0 15px;
+        margin: 0px 0 0 6px;
+    }
+
+    .cart-add-body {
+        justify-content: center;
+    }
+
+    .cart-num-product {
+        margin: 0 15px 0 0;
+    }
+
+    .cart-add-body button {
+        height: 45px;
+        border-radius: 3px;
+        min-width: 158px;
+    }
+
+    .cart-product-sizes {
+        margin: 16px 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Modal part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [team part css start]
+    ////////////////////////////////////////////////////////////// */
+    .team-members li>div {
+        width: 18.89%;
+    }
+
+    .member-details:hover .member-info h3 {
+        top: -4px;
+    }
+
+    .member-info h3 {
+        font-size: 12px;
+    }
+
+    .member-info p {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [team part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Tesimonial part css start]
+    ////////////////////////////////////////////////////////////// */
+    .testimonial__heading h3 {
+        font-size: 32px;
+    }
+
+    .testimonial__quote-icon i {
+        font-size: 24px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Tesimonial part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css start]
+    ////////////////////////////////////////////////////////////// */
+    .comment_area {
+        border-top: 0;
+    }
+
+    .progress {
+        width: 280px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Footer part css start]
+    ////////////////////////////////////////////////////////////// */
+    .footer-logo img {
+        width: 120px;
+    }
+
+    .sidebar-title::after {
+        top: 24px;
+        left: 106px;
+    }
+
+    .footer-down-content ul li {
+        padding-right: 13px;
+    }
+
+    .footer-down-content ul li a {
+        font-size: 12px;
+    }
+
+    .footer-content a {
+        font-size: 12px;
+    }
+
+    .footer-content h4 {
+        font-size: 12px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Footer part css end]
+    ////////////////////////////////////////////////////////////// */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe part css start]
+    ////////////////////////////////////////////////////////////// */
+    .modal-newsletter {
+        min-width: 754px;
+    }
+
+    .modal-newsletter .modal-header {
+        padding: 37px 0;
+    }
+
+    .modal-content .modal-body h1 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .modal-newsletter .input-group {
+        justify-content: center;
+    }
+
+    .modal-newsletter .modal-content {
+        padding: 0 !important;
+        height: 390px;
+    }
+
+    .modal-newsletter .modal-header .btn-close {
+        right: 4px;
+        font-size: 20px;
+        top: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                       [Subscribe  part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css start]
+    ////////////////////////////////////////////////////////////// */
+    .shop-details {
+        margin-left: 6px;
+    }
+
+    .shop-details h3 {
+        display: none;
+    }
+
+    .shop-details .call a:last-child {
+        margin-right: 8px;
+    }
+
+    .shop-details .call a {
+        padding-left: 0px;
+        font-size: 10px;
+        border-left: none;
+        line-height: 2.5;
+    }
+
+    .shop-details .mail a {
+        padding-left: 5px;
+        font-size: 10px;
+        border-left: 1px solid #fff;
+        line-height: 2.5;
+    }
+
+    .search {
+        padding: 5px 12px;
+        width: 270px;
+    }
+    .search::before {
+        width: 31px;
+        left: -21px;
+        transform: skewX(-14deg);
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [breadcrumb  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .banner-title {
+        font-size: 35px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [breadcrumb  part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Sidebar  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .wrap-sidebar {
+        display: none;
+    }
+
+    #wrapper .content {
+        max-width: 920px;
+    }
+
+    .bg-shape img {
+        width: 345px;
+        left: 143px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Sidebar  part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Slider  part css start]
+    ////////////////////////////////////////////////////////////// */
+    #wrapper .prev {
+        left: -12%;
+    }
+
+    #wrapper .next {
+        right: 8%;
+    }
+
+    .product-img {
+        width: 264px;
+        left: 19%;
+    }
+
+    .product-slider__content {
+        padding-left: 122px;
+    }
+
+    .product-slider__title {
+        font-size: 25px;
+    }
+
+    .product-slider__price {
+        font-size: 25px;
+    }
+
+    .product-slider__cover {
+        width: 92%;
+    }
+
+    .product-slider {
+        box-shadow: none;
+        width: 80%;
+    }
+
+    .bg-shape {
+        width: 45%;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Slider  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Modal part css start]
+    ////////////////////////////////////////////////////////////// */
+    .slider__col {
+        width: 310px;
+        margin-right: 8px;
+    }
+
+    .cart-main-body {
+        padding: 24px 30px 0 30px;
+    }
+
+    .slider__thumbs {
+        height: 505px;
+    }
+
+    .slider__images {
+        height: 505px;
+        width: 505px;
+    }
+
+    .add-to {
+        justify-content: center;
+    }
+
+    .cart-product-coupon {
+        align-items: center;
+        padding: 10px 6px;
+        text-align: center;
+        justify-content: center;
+        background-color: var(--brand);
+        margin-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 403px;
+        border-radius: 10px;
+    }
+
+    .cart-product-coupon {
+        padding: 10px 6px;
+        width: 100%;
+    }
+
+    .cart-product-sizes .form-select {
+        font-size: 13px;
+    }
+
+    .cart-product-coupon input {
+        padding: 3px 3px;
+        margin: 5px 0px 5px 0;
+        font-size: 12px;
+    }
+
+    .cart-product-coupon .apply-coupon-button {
+        font-size: 13px;
+        min-width: 110px;
+        height: 32px;
+        padding: 0 15px;
+        margin: 0px 0 0 6px;
+    }
+
+    .cart-add-body {
+        justify-content: center;
+    }
+
+    .cart-num-product {
+        margin: 0 15px 0 0;
+    }
+
+    .cart-add-body button {
+        height: 45px;
+        border-radius: 3px;
+    }
+
+    .cart-product-sizes {
+        margin: 16px 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Modal part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Header part css start]
+    ////////////////////////////////////////////////////////////// */
+    .wrap-icon-content .icon-header-item {
+        margin: 0 10px;
+    }
+
+    .wrap-header-mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .container-menu-desktop {
+        display: none;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Header part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Banner part css start]
+    ////////////////////////////////////////////////////////////// */
+    #banner-poster {
+        padding: 14px 0 96px 0px;
+    }
+
+    #banner-poster2 {
+        padding: 60px 0;
+    }
+
+    .banner-info {
+        font-size: 14px;
+    }
+
+    .banner-name {
+        font-size: 19px;
+    }
+
+    .banner-blog.product-hot::before {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner-blog.product-hot::after {
+        font-size: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Banner part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Product part css start]
+    ////////////////////////////////////////////////////////////// */
+    #products {
+        padding: 60px 0;
+    }
+
+    .item-block-btn {
+        min-width: 114px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .New::after {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+    }
+
+    .discount::after {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .fa-certificate::before {
+        position: absolute;
+        content: "";
+        top: 5px;
+        right: 5px;
+        font-size: 40px;
+        color: #ff6000;
+        width: 40px;
+        height: 40px;
+        z-index: 1;
+        font-weight: 900;
+    }
+
+    .product-banner-part {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .product-banner {
+        margin-right: 10px;
+    }
+
+    .product-banner-part .product-banner:last-child {
+        margin-right: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css start]
+    ////////////////////////////////////////////////////////////// */
+    #product-detail .nav-pills .nav-link {
+        margin: 0px 8px;
+        padding: 5px;
+    }
+
+    .comment_area {
+        border-top: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [about part css start]
+    ////////////////////////////////////////////////////////////// */
+    .about-left-content {
+        margin-bottom: 15px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [about part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Tesimonial part css start]
+    ////////////////////////////////////////////////////////////// */
+    .testimonial__heading h3 {
+        font-size: 28px;
+    }
+
+    .testimonial__quote-icon i {
+        font-size: 22px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Tesimonial part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Blog part css start]
+    ////////////////////////////////////////////////////////////// */
+    #blog {
+        padding: 80px 0 50px 0;
+    }
+
+    .blog-text {
+        font-size: 12px;
+    }
+
+    .blog-text h4 a {
+        font-size: 16px;
+    }
+
+    .blog-text p {
+        font-size: 12px;
+    }
+
+    .published-col i {
+        font-size: 12px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Blog part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [blog detail  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .about_header_title {
+        font-size: 32px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [blog detail  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Gallery  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .gallery-overlay h4 {
+        font-size: 14px;
+    }
+
+    .gallery-overlay {
+        width: 180px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Gallery  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [team  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .team-row {
+        display: flex;
+    }
+
+    .team-members li>div {
+        float: none;
+        display: inline-block;
+        width: 30%;
+        margin: 0 !important;
+    }
+
+    .team-members li {
+        text-align: center;
+    }
+
+    .team-members {
+        transform: rotate(0);
+    }
+
+    .member-details img {
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .team-overview {
+        padding: 15px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [team  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Footer  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .footer-logo {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .footer-content h4 {
+        font-size: 13px;
+    }
+
+    .footer-content.app h4 {
+        border: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .footer-content.app {
+        text-align: center;
+    }
+
+    .footer-content.app a {
+        display: inline-block;
+    }
+
+    .pay-icons {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .footer-bottom {
+        padding: 10px 0;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Footer  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css start]
+    ////////////////////////////////////////////////////////////// */
+    .coming_soon_details h4 {
+        font-size: 40px;
+    }
+
+    .coming_soon_details h3 {
+        font-size: 60px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css end]
+    ////////////////////////////////////////////////////////////// */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* //////////////////////////////////////////////////////////////
+                [preloader part css start]
+    ////////////////////////////////////////////////////////////// */
+    .ctn-preloader .animation-preloader .spinner {
+        height: 128px;
+        width: 128px;
+    }
+
+    .ctn-preloader .animation-preloader .txt-loading {
+        font: bold 56px var(--font2);
+    }
+
+
+    /* //////////////////////////////////////////////////////////////
+                [preloader part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Section Header part css start]
+    ////////////////////////////////////////////////////////////// */
+    .about_header_title {
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 1.3;
+        margin-bottom: 20px;
+        font-family: var(--font2);
+        color: #000;
+        text-transform: capitalize;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                [Section Header part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe part css start]
+    ////////////////////////////////////////////////////////////// */
+    .modal-newsletter {
+        min-width: 305px;
+    }
+
+    .modal-content .modal-body h1 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .modal-newsletter .input-group {
+        justify-content: center;
+    }
+
+    .modal-newsletter .modal-content {
+        padding: 0 !important;
+        height: 390px;
+    }
+
+    .modal-newsletter .modal-header .btn-close {
+        right: 4px;
+        font-size: 20px;
+        top: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                       [Subscribe  part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css start]
+    ////////////////////////////////////////////////////////////// */
+    .shop-details h3 {
+        display: none;
+    }
+
+    .shop-details .call a {
+        font-size: 12px;
+        border: none;
+        padding: 0;
+    }
+
+    .shop-details .mail a {
+        display: none;
+    }
+
+    .search {
+        padding: 5px 8px;
+        width: 289px;
+    }
+
+    .shop-details span {
+        display: none;
+    }
+
+    .search::before {
+        width: 24px;
+        left: -18px;
+        transform: skewX(-13deg);
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [breadcrumb  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .banner-title {
+        font-size: 30px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [breadcrumb  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Header part css start]
+    ////////////////////////////////////////////////////////////// */
+    .wrap-icon-content .icon-header-item {
+        margin: 0 8px;
+    }
+
+    .container-menu-desktop {
+        display: none;
+    }
+
+    .wrap-header-mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Header part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Slider part css start]
+    ////////////////////////////////////////////////////////////// */
+    .product-slider__title {
+        font-size: 24px;
+    }
+
+    .product-slider__price {
+        font-size: 30px;
+    }
+
+    .product-ctr .hr-vertical {
+        margin: 35px 0;
+        height: 1px;
+    }
+
+    .product-labels__group {
+        text-align: left;
+    }
+
+    #wrapper {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #wrapper .content {
+        max-width: 920px;
+        margin-top: 20px;
+        height: auto;
+        min-height: 100vh;
+        margin-bottom: 20px;
+    }
+
+    #wrapper .next,
+    #wrapper .prev {
+        top: 170px;
+    }
+
+    .bg-shape img {
+        transform: none;
+        width: 100%;
+        position: relative;
+        left: auto;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+        height: 100%;
+        object-position: top center;
+    }
+
+    .product-slider__cover {
+        border-radius: 20px;
+    }
+
+    .bg-shape {
+        padding: 30px;
+        width: 95%;
+        border-radius: 20px;
+        height: 290px;
+        align-items: flex-start;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #wrapper .prev {
+        left: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .product-slider {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+        position: relative;
+        top: 0;
+        margin-top: 170px;
+        margin-bottom: 100px;
+    }
+
+    .product-slider br {
+        display: none;
+    }
+
+    .product-slider__item {
+        height: auto;
+    }
+
+    .product-slider__card {
+        align-items: flex-start;
+        border-radius: 20px;
+    }
+
+    .product-slider__content {
+        padding: 20px 30px 50px;
+        padding-top: 180px;
+        text-align: center;
+    }
+
+    .product-ctr {
+        justify-content: center;
+    }
+
+    .product-img {
+        width: 100%;
+        max-width: 400px;
+        top: 30px;
+        height: 390px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .product-slider__cart {
+        margin-right: 30px;
+    }
+
+    .product-img {
+        max-width: 324px;
+        height: 303px;
+        width: 100%;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Slider part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Modal part css start]
+    ////////////////////////////////////////////////////////////// */
+    .slider__col {
+        width: 310px;
+        margin-right: 8px;
+    }
+
+    .cart-main-body {
+        padding: 24px 30px 0 30px;
+    }
+
+    .slider__thumbs {
+        height: 368px;
+    }
+
+    .slider__images {
+        height: 368px;
+        width: 367px;
+    }
+
+    .add-to {
+        justify-content: center;
+    }
+
+    .cart-images {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Modal part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Banner part css start]
+    ////////////////////////////////////////////////////////////// */
+    #banner-poster {
+        padding: 40px 0 128px 0;
+    }
+
+    #banner-poster2 {
+        padding: 60px 0;
+    }
+
+    .product-slider__cart {
+        width: 100%;
+        max-width: 198px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .product-slider__bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .banner-txt {
+        padding: 20px 15px;
+    }
+
+    .banner-name {
+        font-size: 20px !important;
+    }
+
+    .banner-blog.product-hot::before {
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner-blog.product-hot::after {
+        font-size: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Banner part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [blog detail  part css start]
+    ////////////////////////////////////////////////////////////// */
+    #blog-page .about_header_title {
+        font-size: 25px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [blog detail  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [commentbox  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .comment-nav .nav-link {
+        padding: 8px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [commentbox  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [about us part css start]
+    ////////////////////////////////////////////////////////////// */
+    #about {
+        padding: 50px 0;
+    }
+
+    .about-left-content img {
+        margin-bottom: 15px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [about us  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [team part css start]
+    ////////////////////////////////////////////////////////////// */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team-row {
+        display: grid;
+    }
+
+    .team-members li>div {
+        float: none;
+        display: inline-block;
+        width: 30%;
+        margin: 0 !important;
+    }
+
+    .team-members li {
+        text-align: center;
+    }
+
+    .team-members {
+        transform: rotate(0);
+    }
+
+    .member-details img {
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .team-overview {
+        padding: 15px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [team part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .newsletter form .email input {
+        width: 100%;
+    }
+
+    .newsletter form .email-button input {
+        width: 100%;
+        margin-left: 7px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .progress {
+        width: 290px;
+    }
+
+    .comment_area .comment-content .comment-author {
+        max-width: 30px;
+        margin-right: 8px;
+    }
+
+    .comment_area .comment-content .comment-meta p {
+        font-size: 12px;
+    }
+
+    .comment_area {
+        border-top: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Product  part css start]
+    ////////////////////////////////////////////////////////////// */
+    #products {
+        padding: 60px 0;
+    }
+
+    .item {
+        width: calc(100% / 3);
+    }
+
+    /* .filter {
+        margin: 0px 0;
+        justify-content: space-between;
+        width: 100%;
+    } */
+    #products .nav-pills .nav-link {
+        padding: 2px 8px;
+        font-size: 14px;
+        height: 34px;
+        margin: 0 3px;
+    }
+
+    .filter-col1,
+    .filter-col2,
+    .filter-col3,
+    .filter-col4 {
+        width: 50%;
+    }
+
+    .filter-item {
+        height: 34px;
+    }
+
+    .shop-details {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
+
+    .item-block-btn {
+        min-width: 115px;
+        height: 30px;
+        padding: 0 9px;
+        font-size: 13px;
+    }
+
+    .New::after {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .discount::after {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .fa-certificate::before {
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .product-banner-part {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .product-banner {
+        margin-right: 10px;
+    }
+
+    .product-banner-part .product-banner:last-child {
+        margin-right: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [testimonial   part css start]
+    ////////////////////////////////////////////////////////////// */
+    #testimonial {
+        padding: 50px 0;
+        background: #fff;
+    }
+
+    #testimonial .swiper-container {
+        padding-bottom: 40px;
+    }
+
+    .testimonial__box {
+        padding: 0;
+    }
+
+    .testimonial__star {
+        margin-bottom: 10px;
+    }
+
+    .testimonial__star i {
+        font-size: 14px;
+    }
+
+    .testimonial__heading {
+        margin-bottom: 15px;
+    }
+
+    .testimonial__heading h3 {
+        font-size: 22px;
+    }
+
+    .testimonial__quote-icon {
+        margin-bottom: 15px;
+    }
+
+    .testimonial__quote-icon i {
+        font-size: 18px;
+    }
+
+    .testimonial__desc {
+        margin-bottom: 20px;
+    }
+
+    .testimonial__user-name h6 {
+        font-size: 16px;
+    }
+
+    #testimonial .swiper-button-prev,
+    #testimonial .swiper-button-next {
+        display: none;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [testimonial  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [specification   part css start]
+    ////////////////////////////////////////////////////////////// */
+    #specification {
+        padding: 50px 0;
+    }
+
+    .specification-detail h3 {
+        font-size: 20px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [specification  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Footer   part css start]
+    ////////////////////////////////////////////////////////////// */
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-content {
+        margin-top: 20px;
+    }
+
+    .footer-content.app h4 {
+        border: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .footer-content.app {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-down-content ul {
+        justify-content: center;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .footer-down-content-mid {
+        display: flex;
+        justify-content: center;
+        margin-top: 13px;
+    }
+
+    .footer-down-content-right {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .footer-down-content ul li:last-child {
+        padding-right: 0px;
+    }
+
+    .footer-down-content ul li a {
+        font-size: 17px;
+    }
+
+    .footer-bottom p {
+        text-align: center;
+    }
+
+    .footer-down-content ul li::after {
+        top: 7px;
+        right: 0;
+        height: 19px;
+        width: 2px;
+    }
+
+
+    /* //////////////////////////////////////////////////////////////
+                      [Footer   part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css start]
+    ////////////////////////////////////////////////////////////// */
+    .coming_soon_details h4 {
+        font-size: 32px;
+    }
+
+    .coming_soon_details h3 {
+        font-size: 46px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [contact part css Start]
+    ////////////////////////////////////////////////////////////// */
+    .contact-form {
+        margin-top: 12px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [contact part css end]
+    ////////////////////////////////////////////////////////////// */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* //////////////////////////////////////////////////////////////
+                [preloader part css start]
+    ////////////////////////////////////////////////////////////// */
+    .ctn-preloader .animation-preloader .spinner {
+        height: 128px;
+        width: 128px;
+    }
+
+    .ctn-preloader .animation-preloader .txt-loading {
+        font: bold 35px var(--font2);
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                [preloader part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                [Section Header after text part css start]
+    ////////////////////////////////////////////////////////////// */
+    .header_title_after {
+        font-size: 20px !important;
+    }
+
+    .about_header_title {
+        font-size: 30px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                [Section Header after text part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [breadcrumb  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .banner-title {
+        font-size: 25px;
+    }
+
+    .breadcrumb a:first-child::before {
+        left: 7px;
+    }
+
+    .breadcrumb a::before {
+        left: 24px;
+    }
+
+    .breadcrumb a:first-child {
+        padding-left: 33px;
+    }
+
+    .breadcrumb a {
+        padding: 0 10px 0 47px;
+        font-size: 11px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [breadcrumb  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe part css start]
+    ////////////////////////////////////////////////////////////// */
+    .modal-newsletter {
+        min-width: 305px;
+    }
+
+    .modal-content .modal-body h1 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .modal-newsletter .input-group {
+        justify-content: center;
+    }
+
+    .modal-newsletter .modal-content {
+        padding: 0 !important;
+        height: 390px;
+    }
+
+    .modal-newsletter .modal-header .btn-close {
+        right: 4px;
+        font-size: 20px;
+        top: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                       [Subscribe  part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css start]
+    ////////////////////////////////////////////////////////////// */
+    #top-bar {
+        background: #9cc026;
+    }
+
+    .shop-details {
+        display: none;
+    }
+
+    .search::before {
+        display: none;
+    }
+
+    .search-part {
+        width: 100%;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Top bar part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [about us part css start]
+    ////////////////////////////////////////////////////////////// */
+    #about {
+        padding: 50px 0;
+    }
+
+    .about-left-content {
+        margin-bottom: 10px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [about us part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Header part css start]
+    ////////////////////////////////////////////////////////////// */
+    .container-menu-desktop {
+        display: none;
+    }
+
+    .wrap-header-mobile {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .wrap-header-mobile .wrap-icon-header {
+        margin-right: 0;
+    }
+
+    .wrap-icon-header .wrap-icon-content {
+        padding-right: 0;
+    }
+
+    .icon-header-item {
+        font-size: 20px;
+    }
+
+    .user .btn i {
+        font-size: 20px;
+    }
+
+    .icon-header-noti::after {
+        font-size: 11px;
+        line-height: 16px;
+        top: -9px;
+        right: 0px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .hamburger {
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    .wrap-header-mobile {
+        padding: 0px;
+    }
+
+    .user .dropdown .dropdown-toggle::after {
+        vertical-align: 4px;
+        margin: 0;
+    }
+
+    .user .dropdown ul li a {
+        font-size: 12px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Header part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Slider part css start]
+    ////////////////////////////////////////////////////////////// */
+    .product-ctr {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+
+    .product-ctr .hr-vertical {
+        width: 100%;
+        margin: 35px 0;
+        height: 1px;
+    }
+
+    #wrapper .next,
+    #wrapper .prev {
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .product-slider__title {
+        font-size: 20px;
+    }
+
+    .product-slider__price {
+        font-size: 20px;
+    }
+
+    .product-slider__price sup {
+        top: -14px;
+        font-size: 53%;
+    }
+
+    #wrapper {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #wrapper .content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #wrapper .content {
+        max-width: 920px;
+        margin-top: 100px;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #wrapper .next,
+    #wrapper .prev {
+        top: 170px;
+    }
+
+    .bg-shape img {
+        transform: none;
+        width: 100%;
+        position: relative;
+        left: auto;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+        height: 100%;
+        object-position: top center;
+    }
+
+    .product-slider__cover {
+        border-radius: 20px;
+    }
+
+    .bg-shape {
+        height: 200px;
+        padding: 30px;
+        width: 90%;
+        height: 290px;
+        align-items: flex-start;
+        padding: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #wrapper .prev {
+        transform: translate(20%, -50%);
+    }
+
+    .product-slider {
+        width: 85%;
+        margin-top: 130px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+        position: relative;
+        top: 0;
+        margin-bottom: 100px;
+    }
+
+    .product-slider__content {
+        padding-top: 220px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .product-slider__cart {
+        width: 100%;
+        max-width: 301px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .product-img {
+        max-width: 300px;
+        height: 300px;
+        width: 100%;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #wrapper .content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #wrapper .prev {
+        left: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .product-slider br {
+        display: none;
+    }
+
+    .product-slider__item {
+        height: auto;
+    }
+
+    .product-slider__card {
+        align-items: flex-start;
+        border-radius: 20px;
+    }
+
+    .product-slider__content {
+        padding-top: 220px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .product-ctr {
+        justify-content: center;
+    }
+
+    .product-slider__cart {
+        width: 100%;
+        max-width: 301px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Slider part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [wishlist Sidebar part css start]
+    ////////////////////////////////////////////////////////////// */
+    .wishlist {
+        padding: 0 15px 0 15px;
+    }
+
+    .wishlist-xmark .pointer {
+        line-height: 10px;
+        font-size: 20px;
+        padding: 5px 7px;
+    }
+
+    .header-wishlist {
+        padding: 30px;
+    }
+
+    .header-wishlist-title {
+        padding-bottom: 35px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [wishlist Sidebar part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Sidebar part css start]
+    ////////////////////////////////////////////////////////////// */
+    .cart {
+        padding: 0 15px 0 15px;
+    }
+
+    .header-cart-buttons a {
+        min-width: 117px;
+    }
+
+    .cart-xmark .pointer {
+        line-height: 10px;
+        font-size: 20px;
+        padding: 5px 7px;
+    }
+
+    .header-cart {
+        padding: 30px;
+    }
+
+    .header-cart-title {
+        padding-bottom: 35px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Cart Sidebar part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Banner part css start]
+    ////////////////////////////////////////////////////////////// */
+    #banner-poster {
+        padding: 30px 0;
+    }
+
+    #banner-poster2 {
+        padding: 30px 0;
+    }
+
+    .banner-blog.product-hot::after {
+        font-size: 50px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner-blog.product-hot::before {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .banner-name {
+        font-size: 20px;
+    }
+
+    .banner-info {
+        font-size: 16px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Banner part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe  part css start]
+    ////////////////////////////////////////////////////////////// */
+    .email-button {
+        margin-top: 5px;
+    }
+
+    .newsletter form input[type="email"] {
+        border-radius: 10px;
+    }
+
+    .newsletter form button {
+        height: 100%;
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .newsletter form button {
+        border-radius: 10px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Subscribe  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [testimonial   part css start]
+    ////////////////////////////////////////////////////////////// */
+    #testimonial {
+        padding: 50px 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [testimonial  part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Services part css start]
+    ////////////////////////////////////////////////////////////// */
+    #services {
+        padding: 0;
+        ;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Services part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [specification part css start]
+    ////////////////////////////////////////////////////////////// */
+    #specification {
+        padding: 50px 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [specification part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [team part css start]
+    ////////////////////////////////////////////////////////////// */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team-row {
+        display: grid;
+    }
+
+    .team-members li>div {
+        float: none;
+        display: inline-block;
+        width: 30%;
+        margin: 0 !important;
+    }
+
+    .team-members li {
+        text-align: center;
+    }
+
+    .team-members {
+        transform: rotate(0);
+    }
+
+    .member-details img {
+        transform: rotate(0) translate(0, 0);
+    }
+
+    .team-overview {
+        padding: 15px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [team part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Product part css start]
+    ////////////////////////////////////////////////////////////// */
+    #products {
+        padding: 50px 0;
+    }
+
+    .product-menu {
+        justify-content: center;
+        -ms-align-items: center;
+        align-items: center;
+    }
+
+    .product-menu .filter-tope-group ul li button {
+        font-size: 12px;
+        padding: 7px 7px;
+        background: #fff;
+        margin: 0 2px;
+    }
+
+    .product-menu .filter-tope-group ul li:last-child button {
+        margin-right: 0;
+    }
+
+    .filter {
+        margin: 0px 0;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .filter-item {
+        font-size: 12px;
+        min-width: 94px;
+        height: 33px;
+    }
+
+    .filter-col1,
+    .filter-col2,
+    .filter-col3,
+    .filter-col4 {
+        width: 50%;
+    }
+
+    .item {
+        width: calc(100% / 2);
+        padding: 13px;
+    }
+
+
+    .item-block {
+        padding: 7px;
+        border: none;
+        height: 100%;
+    }
+
+    .item-block-btn {
+        line-height: 0;
+        border: none;
+        min-width: 109px;
+        height: 28px;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .item-block:hover {
+        box-shadow: none;
+    }
+
+    .item-block-txt-child1 a {
+        font-size: 13px;
+    }
+
+    .star {
+        font-size: 14px;
+    }
+
+    .New::after {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+    }
+
+    .fa-certificate::before {
+        font-size: 40px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .discount::after {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .load_more a {
+        margin-bottom: 50px;
+    }
+
+    .filter-col1 ul li a,
+    .filter-col2 ul li a,
+    .filter-col3 ul li a {
+        font-size: 13px;
+    }
+
+    .product-banner-part {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product-banner {
+        width: 47%;
+        margin: 3px;
+        padding-bottom: 3px;
+    }
+
+    .panel-filter .wrap-filter {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [blog detail  part css start]
+    ////////////////////////////////////////////////////////////// */
+    #blog-page .about_header_title {
+        font-size: 17px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [blog detail  part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [blog part css start]
+    ////////////////////////////////////////////////////////////// */
+    .item-blog {
+        margin-bottom: 30px;
+    }
+
+    .blog-date {
+        padding: 5px 17px;
+        font-size: 10px;
+    }
+
+    .pagination {
+        margin-bottom: 58px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [blog part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [ specification part css start]
+    ////////////////////////////////////////////////////////////// */
+    .specification {
+        margin-top: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [ specification part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [cart Modal part css start]
+    ////////////////////////////////////////////////////////////// */
+
+    .slider__thumbs {
+        height: 276px;
+        width: 57px;
+        margin: 9px 0px 0 0px;
+    }
+
+    .slider__images {
+        height: 285px;
+        width: 186px;
+    }
+
+    .slider__col {
+        margin-right: 3px;
+        width: 61px;
+    }
+
+    .slider__images .slider__image {
+        margin-top: 8px;
+    }
+
+    .slider__images .slider__image a img {
+        width: 100% !important;
+        height: 284px !important;
+    }
+
+    .cart-main-body .cart-js-hide-modal {
+        right: -7px;
+        z-index: 999;
+    }
+
+    .view-cart-img::after {
+        font-size: 12px;
+        top: 0px;
+    }
+
+    .cart-product-coupon {
+        width: 254px;
+        margin: 0 auto;
+    }
+
+    .cart-product-coupon input {
+        padding: 0 5px;
+        margin: 5px 5px 5px 0;
+        font-size: 14px;
+        width: 130px;
+    }
+
+    .cart-product-coupon .apply-coupon-button {
+        font-size: 10px;
+        min-width: 100px;
+        height: 27px;
+        padding: 0 0px;
+    }
+
+    .cart-images {
+        padding-bottom: 7px;
+    }
+
+    .cart-details .tag {
+        padding: 2px 9px;
+        font-size: 15px;
+    }
+
+    .cart-details {
+        padding: 5px 13px !important;
+    }
+
+    .cart-product-title {
+        font-size: 19px;
+    }
+
+    .cart-product-sizes {
+        padding-right: 0;
+    }
+
+    .cart-product-sizes h4 {
+        font-size: 13px;
+    }
+
+    .cart-product-sizes .form-select {
+        font-size: 12px;
+    }
+
+    .cart-add-body .cart-add {
+        width: auto;
+    }
+
+    .cart-add-body button {
+        min-width: 109px;
+        margin: 0 0 0 5px !important;
+        font-size: 12px;
+    }
+
+    .cart-main-body {
+        padding: 16px 20px 0 20px;
+    }
+
+    .add-to {
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cart-add-body {
+        justify-content: center;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [cart Modal part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [commentbox part css Start]
+    ////////////////////////////////////////////////////////////// */
+    .commentbox-top h3 {
+        font-size: 17px;
+    }
+
+    .commentbox-button button {
+        width: 30%;
+    }
+
+    #commentbox .title {
+        font-size: 20px;
+    }
+
+    .comment_area .comment-content .comment-meta h5 {
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+
+    .comment_area .comment-content .comment-meta p {
+        font-size: 12px;
+    }
+
+    .comment_area .comment-content .comment-meta a.like,
+    .comment_area .comment-content .comment-meta a.reply {
+        padding: 2px 6px 2px;
+        font-size: 12px;
+    }
+
+    .comment_area .children {
+        margin-left: 23px;
+    }
+
+    .comment_area .comment-content .comment-meta .post-date {
+        font-size: 10px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [commentbox part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css Start]
+    ////////////////////////////////////////////////////////////// */
+    #product-detail {
+        padding-top: 20px;
+    }
+
+    #product-detail .tab-pane {
+        padding: 0 10px;
+    }
+
+    #product-detail .nav-pills .nav-link.active {
+        margin: 0;
+    }
+
+    .product-detail-nav {
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    #product-detail .nav-pills .nav-link {
+        margin: 0;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .description,
+    .safety-instructions,
+    .benefits-and-side-effects,
+    .ingredients,
+    .Shipping,
+    .returns-policy,
+    .reviews_ratings,
+    .review-form {
+        padding-top: 10px;
+    }
+
+    .description h3,
+    .ingredients h3,
+    .safety-instructions h3,
+    .benefits-and-side-effects h3,
+    .Shipping h3,
+    .reviews_ratings h3,
+    .review-form h3,
+    .returns-policy h3 {
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
+
+    .description p,
+    .ingredients p,
+    .safety-instructions p,
+    .benefits-and-side-effects p,
+    .Shipping p,
+    .reviews_ratings p,
+    .review-form p,
+    .returns-policy p {
+        font-size: 12px;
+    }
+
+    .ingredients ul li,
+    .benefits-and-side-effects ul li {
+        font-size: 12px;
+    }
+
+    .safety-instructions,
+    .returns-policy {
+        padding-bottom: 10px;
+    }
+
+    .reviews-containerv {
+        justify-content: center;
+        display: grid;
+    }
+
+    .progress {
+        margin: 0 5px;
+        width: 147px;
+    }
+
+    .review-star h6 {
+        font-size: 12px;
+    }
+
+    .comment_area .comment-content .comment-author {
+        max-width: 29px;
+        margin-right: 6px;
+    }
+
+    .comment_area {
+        border-top: 0;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Product Detail part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [contact part css Start]
+    ////////////////////////////////////////////////////////////// */
+    .contact-form {
+        margin-top: 12px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [contact part css end]
+    ////////////////////////////////////////////////////////////// */
+
+    /* //////////////////////////////////////////////////////////////
+                      [Footer part css Start]
+    ////////////////////////////////////////////////////////////// */
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-content {
+        margin-top: 12px;
+    }
+
+    .footer-content h4 {
+        font-size: 12px;
+        padding-bottom: 15px;
+        font-weight: 800;
+    }
+
+    .footer-row {
+        padding: 48px 0px 0 0px;
+    }
+
+    .footer-content h4 {
+        font-size: 12px;
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+
+    .footer-content.app {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-content {
+        margin-top: 20px;
+    }
+
+    .footer-down-content ul li {
+        padding-right: 11px;
+        border: none;
+    }
+
+    .footer-down-content ul li a {
+        margin-left: 0px;
+        padding: 2px 0;
+        font-size: 12px;
+    }
+
+    .footer-down-content {
+        margin-bottom: 15px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .footer-down-content-mid ul {
+        justify-content: center;
+    }
+
+    .pay-icons {
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .footer-content.app h4 {
+        border: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .footer-bottom {
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-down-content ul li::after {
+        top: 8px;
+        right: 4px;
+        height: 12px;
+        width: 1px;
+    }
+
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Footer part css end]
+    ////////////////////////////////////////////////////////////// */
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css start]
+    ////////////////////////////////////////////////////////////// */
+    .coming_soon_details h4 {
+        font-size: 18px;
+    }
+
+    .coming_soon_details h3 {
+        font-size: 34px;
+    }
+
+    /* //////////////////////////////////////////////////////////////
+                      [Coming Soon part css end]
+    ////////////////////////////////////////////////////////////// */
+
+}
+
+/* Custom more small devices */
+@media (min-width: 320px) and (max-width: 478.98px) {}
