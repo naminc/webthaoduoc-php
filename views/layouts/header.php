@@ -79,14 +79,14 @@
 			<div class="wrap-menu-desktop">
 				<nav class="limiter-menu-desktop">
 					<!-- Logo desktop -->
-					<a href="index.html" class="logo">
+					<a href="/" class="logo">
 						<img class="w-100 img-fluid" src="/assets/images/icons/logo-01.png" alt="IMG-LOGO">
 					</a>
 					<!-- Menu desktop -->
 					<div class="menu-desktop ">
 						<ul class="main-menu">
 							<li class="active-menu">
-								<a href="index.html">Home</a>
+								<a href="/">Home</a>
 							</li>
 							<li class="label1" data-label1="hot">
 								<a href="shop.html">Shop</a>

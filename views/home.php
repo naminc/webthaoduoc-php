@@ -1,12 +1,6 @@
-<?php
-require_once './system/core/database.php';
-
-require_once LAYOUT.'/header.php';
-?>
-
-	<!-- >>>>>>>>>>>>>>>>>>> Cart part end >>>>>>>>>>>>>>>>>>>-->
-	<!-- >>>>>>>>>>>>>>>>>>> Slider part start >>>>>>>>>>>>>>>>>>>-->
+<?php require_once 'views/layouts/header.php'; ?>
 	<div id="wrapper">
+		
 		<div class="content">
 			<div class="bg-shape">
 				<img src="/assets/images/banner/banner-shape1.png" alt="">
@@ -2638,6 +2632,4 @@ require_once LAYOUT.'/header.php';
 	<!-- >>>>>>>>>>>>>>>>>>> gallery part end >>>>>>>>>>>>>>>>>>>-->
 	<!-- >>>>>>>>>>>>>>>>>>> Footer part start >>>>>>>>>>>>>>>>>>>-->
 	
-<?php
-require_once LAYOUT.'/footer.php';
-?>
+<?php require_once 'views/layouts/footer.php'; ?>

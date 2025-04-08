@@ -1,4 +1,6 @@
 <?php
-require_once './system/route/Router.php';
-$Router = new Router();
-?>
+require_once 'core/App.php';
+require_once 'core/Controller.php';
+require_once 'core/Model.php';
+
+$app = new App();
