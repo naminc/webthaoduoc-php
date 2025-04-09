@@ -363,7 +363,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+									Mua ngay
 								</div>
 							</div>
 						</a>
@@ -384,7 +384,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+									Mua ngay
 								</div>
 							</div>
 						</a>
@@ -405,7 +405,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+									Mua ngay
 								</div>
 							</div>
 						</a>
@@ -428,211 +428,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="product-menu d-flex flex-wrap">
-				<div class="d-flex flex-wrap filter-tope-group">
-					<ul class="nav nav-pills" id="pills-tab" role="tablist">
-						<li class="nav-item" role="presentation">
-							<button class="nav-link active" id="recents" data-bs-toggle="pill" data-bs-target="#recent"
-								type="button" role="tab" aria-controls="recent" aria-selected="true">Recent Products
-							</button>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="discounts" data-bs-toggle="pill" data-bs-target="#discount"
-								type="button" role="tab" aria-controls="discount"
-								aria-selected="false">Discounts</button>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="features" data-bs-toggle="pill" data-bs-target="#featured"
-								type="button" role="tab" aria-controls="featured" aria-selected="false">Featured
-								Products</button>
-						</li>
-					</ul>
-				</div>
-				<!-- Filter button -->
-				<div class="filter d-flex flex-wrap">
-					<div class="filter-item js-show-filter">
-						<i class="icon-filter fa-solid fa-arrow-down-wide-short"></i>
-						<i class="icon-close-filter icon-close"></i>
-						Filter
-					</div>
-					<div class="filter-item js-show-search">
-						<i class="icon-search fa-solid fa-magnifying-glass"></i>
-						<i class="icon-close-search icon-close"></i>
-						Search
-					</div>
-				</div>
-				<!-- Filter -->
-				<div class="panel-filter w-100">
-					<div class="wrap-filter flex-wrap d-flex w-100">
-						<div class="filter-col1">
-							<div class="filter-title">
-								Sort By
-							</div>
-							<ul>
-								<li>
-									<a href="#" class="filter-link ">
-										Default
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										Popularity
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										Average rating
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link  filter-link-active">
-										Newness
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										Price: Low to High
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										Price: High to Low
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="filter-col2">
-							<div class="filter-title">
-								Price
-							</div>
-							<ul>
-								<li>
-									<a href="#" class="filter-link  filter-link-active">
-										All
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										$0.00 - $50.00
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										$50.00 - $100.00
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										$100.00 - $150.00
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										$150.00 - $200.00
-									</a>
-								</li>
-								<li>
-									<a href="#" class="filter-link ">
-										$200.00+
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="filter-col3">
-							<div class="filter-title">
-								Color
-							</div>
-							<ul>
-								<li>
-									<span class="black">
-										<i class="fa-solid fa-circle"></i>
-									</span>
-									<a href="#" class="filter-link ">
-										Black
-									</a>
-								</li>
-								<li>
-									<span class="blue">
-										<i class="fa-solid fa-circle"></i>
-									</span>
-									<a href="#" class="filter-link  filter-link-active">
-										Blue
-									</a>
-								</li>
-								<li>
-									<span class="grey">
-										<i class="fa-solid fa-circle"></i>
-									</span>
-									<a href="#" class="filter-link ">
-										Grey
-									</a>
-								</li>
-								<li>
-									<span class="green">
-										<i class="fa-solid fa-circle"></i>
-									</span>
-									<a href="#" class="filter-link ">
-										Green
-									</a>
-								</li>
-								<li>
-									<span class="red">
-										<i class="fa-solid fa-circle"></i>
-									</span>
-									<a href="#" class="filter-link ">
-										Red
-									</a>
-								</li>
-								<li>
-									<span class="white">
-										<i class="fa-solid fa-circle"></i>
-									</span>
-									<a href="#" class="filter-link ">
-										White
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="filter-col4">
-							<div class="filter-title">
-								Tags
-							</div>
-							<div class="filter-col4-item d-flex flex-wrap">
-								<a href="#">
-									Cannabis Oil
-								</a>
-								<a href="#">
-									Skin Therapy
-								</a>
-								<a href="#">
-									Beauty
-								</a>
-								<a href="#">
-									Recent
-								</a>
-								<a href="#">
-									Discounts
-								</a>
-								<a href="#">
-									New
-								</a>
-								<a href="#">
-									Sale
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Search product -->
-				<div class="panel-search w-100">
-					<div class="panel-search-body d-flex">
-						<button>
-							<i class="fa-solid fa-magnifying-glass"></i>
-						</button>
-						<input type="text" name="search-product" placeholder="Search">
-					</div>
-				</div>
-			</div>
+			
 			<div class="row">
 				<div class="col-lg-10">
 					<div class="tab-content " id="pills-tabContent">
@@ -2129,7 +1925,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+									Mua ngay
 								</div>
 							</div>
 						</a>
@@ -2150,7 +1946,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+									Mua ngay
 								</div>
 							</div>
 						</a>
@@ -2171,7 +1967,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+								Mua ngay
 								</div>
 							</div>
 						</a>
@@ -2192,7 +1988,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+								Mua ngay
 								</div>
 							</div>
 						</a>
@@ -2213,7 +2009,7 @@
 							</div>
 							<div class="banner-txt-child2">
 								<div class="banner-link">
-									Shop Now
+								Mua ngay
 								</div>
 							</div>
 						</a>

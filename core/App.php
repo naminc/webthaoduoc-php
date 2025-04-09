@@ -11,6 +11,7 @@ class App {
     public function __construct() {
         $url = $this->parseUrl();
 
+
         // Controller
         if (!empty($url[0])) {
             $controllerName = ucfirst($url[0]) . 'Controller';
@@ -26,7 +27,7 @@ class App {
             }
         } else {
             $this->controllerName = $this->controller; // Lưu tên controller mặc định
-        }        
+        }
         require_once 'controllers/' . $this->controller . '.php';
         $this->controller = new $this->controller;
 

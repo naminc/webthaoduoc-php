@@ -47,7 +47,7 @@
 	</div>
 	<!-- >>>>>>>>>>>>>>>>>>> Subscribe modal part end >>>>>>>>>>>>>>>>>>>-->
 	<!-- >>>>>>>>>>>>>>>>>>> Top bar part start >>>>>>>>>>>>>>>>>>>-->
-	<section id="top-bar">
+	<!-- <section id="top-bar">
 		<div class="shop-details">
 			<h3>monday to sunday 9:00am to 9:00pm </h3>
 			<div class="call">
@@ -70,7 +70,7 @@
 				</form>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- >>>>>>>>>>>>>>>>>>> Top bar part end >>>>>>>>>>>>>>>>>>>-->
 	<!-- >>>>>>>>>>>>>>>>>>> Header part start >>>>>>>>>>>>>>>>>>>-->
 	<header id="header">
@@ -86,16 +86,13 @@
 					<div class="menu-desktop ">
 						<ul class="main-menu">
 							<li class="active-menu">
-								<a href="/">Home</a>
-							</li>
-							<li class="label1" data-label1="hot">
-								<a href="shop.html">Shop</a>
+								<a href="/">Trang chủ</a>
 							</li>
 							<li>
-								<a href="blog.html">Blog</a>
+								<a href="/blog">Giới thiệu</a>
 							</li>
 							<li>
-								<a href="#!">Pages <i class="fa-solid fa-chevron-down"></i></a>
+								<a href="#!">Bác sĩ tư vấn <i class="fa-solid fa-chevron-down"></i></a>
 								<ul class="sub-menu">
 									<li><a href="blog-detail.html">Blog Detail</a></li>
 									<li><a href="product-detail.html">Product Detail</a></li>
@@ -104,46 +101,27 @@
 								</ul>
 							</li>
 							<li>
-								<a href="about.html">About</a>
+								<a href="#!">Chuyên sâu về bệnh<i class="fa-solid fa-chevron-down"></i></a>
+								<ul class="sub-menu">
+									<li><a href="blog-detail.html">Blog Detail</a></li>
+									<li><a href="product-detail.html">Product Detail</a></li>
+									<li><a href="error.html">Error Page</a></li>
+									<li><a href="coming-soon.html">Coming Soon</a></li>
+								</ul>
+							</li>
+							<li class="label1" data-label1="hot">
+								<a href="shop.html">Đặt hàng</a>
 							</li>
 							<li>
-								<a href="contact.html">Contact</a>
+								<a href="about.html">Hướng dẫn</a>
+							</li>
+							<li>
+								<a href="/contact">Liên hệ</a>
 							</li>
 						</ul>
 					</div>
 					<!-- Icon header -->
 					<div class="wrap-icon-header d-flex h-100">
-						<div class="wrap-icon-header-item d-flex h-100">
-							<div class="icon-header-item icon-header-noti js-show-cart" data-notify="2">
-								<i class="fa-solid fa-bag-shopping"></i>
-							</div>
-						</div>
-						<div class="wrap-icon-header-item d-flex h-100">
-							<div class="icon-header-item icon-header-noti js-show-wishlist" data-notify="5">
-								<i class="fa-regular fa-heart"></i>
-							</div>
-						</div>
-						<div class="wrap-icon-header-item d-flex h-100">
-							<div class="icon-header-item">
-								<div class="user">
-									<div class="dropdown">
-										<a class="btn btn-secondary dropdown-toggle" href="user-profile.html"
-											role="button" data-bs-toggle="dropdown" aria-expanded="false">
-											<!-- Profile -->
-											<i class="fa-regular fa-circle-user"></i>
-										</a>
-										<ul class="dropdown-menu">
-											<li><a class="dropdown-item" href="user-profile.html"><i
-														class="me-2 fa-solid fa-user"></i> My Profile</a></li>
-											<li><a class="dropdown-item" href="user-profile.html"><i
-														class="me-2 fa-solid fa-gear"></i> Account Settings</a></li>
-											<li><a class="dropdown-item" href="#"><i
-														class="me-2 fa-solid fa-right-from-bracket"></i> Logout</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
 						<div class="wrap-icon-header-item d-flex h-100">
 							<div class="icon-header-item js-show-sidebar">
 								<i class="fa-solid fa-bars"></i>
@@ -159,36 +137,6 @@
 			<div class="logo-mobile">
 				<a href="index.html"><img src="/assets/images/icons/logo-01.png" alt="IMG-LOGO"></a>
 			</div>
-			<!-- Icon header -->
-			<div class="wrap-icon-header d-flex h-100">
-				<div class="wrap-icon-content d-flex h-100">
-					<div class="icon-header-item icon-header-noti js-show-cart" data-notify="2">
-						<i class="fa-solid fa-bag-shopping"></i>
-					</div>
-					<div class="icon-header-item icon-header-noti js-show-wishlist" data-notify="5">
-						<i class="fa-regular fa-heart"></i>
-					</div>
-					<div class="icon-header-item">
-						<div class="user">
-							<div class="dropdown">
-								<a class="btn btn-secondary dropdown-toggle" href="user-profile.html" role="button"
-									data-bs-toggle="dropdown" aria-expanded="false">
-									<!-- Profile -->
-									<i class="fa-regular fa-circle-user"></i>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="user-profile.html"><i
-												class="me-2 fa-solid fa-user"></i> My Profile</a></li>
-									<li><a class="dropdown-item" href="user-profile.html"><i
-												class="me-2 fa-solid fa-gear"></i> Account Settings</a></li>
-									<li><a class="dropdown-item" href="#"><i
-												class="me-2 fa-solid fa-right-from-bracket"></i> Logout</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			<!-- Button show menu -->
 			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
 				<span class="hamburger-box">
@@ -200,13 +148,13 @@
 		<div class="menu-mobile">
 			<ul class="main-menu-m">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html">Trang chủ</a>
 				</li>
 				<li>
 					<a href="shop.html" class="label1 rs1" data-label1="hot">Shop</a>
 				</li>
 				<li>
-					<a href="blog.html">Blog</a>
+					<a href="/blog">Giới thiệu</a>
 				</li>
 				<li>
 					<a href="#!">Pages</a>
@@ -221,10 +169,22 @@
 					</span>
 				</li>
 				<li>
+					<a href="#!">Pages 2</a>
+					<ul class="sub-menu-m">
+						<li><a href="blog-detail.html">Blog Detail</a></li>
+						<li><a href="product-detail.html">Product Detail</a></li>
+						<li><a href="error.html">Error Page</a></li>
+						<li><a href="coming-soon.html">Coming Soon</a></li>
+					</ul>
+					<span class="arrow-main-menu-m">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</span>
+				</li>
+				<li>
 					<a href="about.html">About</a>
 				</li>
 				<li>
-					<a href="contact.html">Contact</a>
+					<a href="contact.html">Liên hệ</a>
 				</li>
 			</ul>
 		</div>
