@@ -17,7 +17,7 @@
 </head>
 <body class="custom-background">
 	<!-- >>>>>>>>>>>>>>>>>>> Subscribe modal part start >>>>>>>>>>>>>>>>>>>-->
-	<div id="subscribe-modal" class="modal fade">
+	<!-- <div id="subscribe-modal" class="modal fade">
 		<div class="modal-dialog modal-newsletter">
 			<div class="modal-content" style="background: url(/assets/images/banner/subscribe.jpg) no-repeat;">
 				<div class="modal-header">
@@ -27,9 +27,9 @@
 				</div>
 				<form method="post">
 					<div class="modal-body text-center">
-						<h1>Subscribe Newsletter</h1>
-						<p>Sign up our newsletter & receive
-							<span>15% OFF</span> your first purchase,
+						<h1>Đăng kí nhận tư vấn </h1>
+						<p>
+							<span>BÁC SĨ THÙY LINH TƯ VẤN MIỄN PHÍ 090 670 5500</span>
 						</p>
 						<div class="input-group">
 							<input type="email" class="form-control" placeholder="Enter your email address" required>
@@ -37,29 +37,24 @@
 								<input type="submit" class="btn btn-primary" value="Subscribe">
 							</div>
 						</div>
-						<p>We’ll never share your details with third parties.</p>
-						<p>
-							View our Privacy Policy for more info. </p>
+						<p style="color: #ff6000;">ĐẶT HÀNG - MUA HÀNG (028) 6684 3862, (028) 38208315</p>
+						<p style="color: #ff6000;">(T2-T6: 8h-17h T7: 8h-12h) </p>
 					</div>
 				</form>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<!-- >>>>>>>>>>>>>>>>>>> Subscribe modal part end >>>>>>>>>>>>>>>>>>>-->
 	<!-- >>>>>>>>>>>>>>>>>>> Top bar part start >>>>>>>>>>>>>>>>>>>-->
 	<!-- <section id="top-bar">
 		<div class="shop-details">
-			<h3>monday to sunday 9:00am to 9:00pm </h3>
+			<h3>Bác sĩ THÙY LINH Tư vấn miễn phí</h3> <a href="callto--8801438696914.html"><i class="fa-solid fa-phone"></i> +88 014 386 96914</a>
 			<div class="call">
-				<a href="callto--8801438696914.html"><i class="fa-solid fa-phone"></i> +88 014 386 96914</a>
+				<a href="callto--8801438696914.html"><i class="fa-solid fa-phone"></i> (028) 6684 3862</a>
 				<span>,</span>
-				<a href="callto--8801438696914.html"> +88 014 386 96914</a>
+				<a href="callto--8801438696914.html"> (028) 38208315</a>
 			</div>
-			<div class="mail">
-				<a href="mailto:example@gamil.com"><i class="fa-solid fa-envelope"></i> info@example.com</a>
-				<span>,</span>
-				<a href="mailto:example@gamil.com"> example@gamil.com</a>
-			</div>
+			
 		</div>
 		<div class="d-flex justify-content-end search-part">
 			<div class="search">
@@ -94,19 +89,26 @@
 							<li>
 								<a href="#!">Bác sĩ tư vấn <i class="fa-solid fa-chevron-down"></i></a>
 								<ul class="sub-menu">
-									<li><a href="blog-detail.html">Blog Detail</a></li>
-									<li><a href="product-detail.html">Product Detail</a></li>
-									<li><a href="error.html">Error Page</a></li>
-									<li><a href="coming-soon.html">Coming Soon</a></li>
+								<li><a href="tu-van/hoi-dap-venpoten-suy-gian-tinh-mach-chan-s52.html">Suy giãn tĩnh mạch chân</a></li>
+								<li><a href="tu-van/hoi-dap-hemorcu-benh-tri-s60.html">Bệnh trĩ</a></li> 
+								<li><a href="tu-van/hoi-dap-enesol-ho-tro-tieu-hoa-s61.html">Hỗ trợ tiêu hóa</a></li> 
+								<li><a href="tu-van/hoi-dap-boswel-carnitor-benh-ly-khop-s62.html">Bệnh lý khớp</a></li> 
+								<li><a href="tu-van/hoi-dap-prolife-benh-ly-tim-mach-s53.html">Bệnh lý tim mạch</a></li>  
+         						<li><a href="tu-van/hoi-dap-deervet-suy-nhuoc-thieu-mau-s54.html">Tiểu đường</a></li>              
+         						<li><a href="tu-van/hoi-dap-metabosol-dai-thao-duong-tieu-duong-s56.html">Suy nhược | Thiếu máu</a></li>
 								</ul>
 							</li>
 							<li>
 								<a href="#!">Chuyên sâu về bệnh<i class="fa-solid fa-chevron-down"></i></a>
 								<ul class="sub-menu">
-									<li><a href="blog-detail.html">Blog Detail</a></li>
-									<li><a href="product-detail.html">Product Detail</a></li>
-									<li><a href="error.html">Error Page</a></li>
-									<li><a href="coming-soon.html">Coming Soon</a></li>
+									<li><a href="blog-detail.html">Bệnh trĩ</a></li>
+									<li><a href="product-detail.html">Đái tháo đường</a></li>
+									<li><a href="error.html">Hen suyễn COPD</a></li>
+									<li><a href="coming-soon.html">Hỗ trợ tiêu hoá</a></li>
+									<li><a href="blog-detail.html">Suy giãn tĩnh mạch</a></li>
+									<li><a href="product-detail.html">Suy nhược | Thiếu máu</a></li>
+									<li><a href="error.html">Tin tức sức khoẻ tổng hợp</a></li>
+									<li><a href="coming-soon.html">Ung thư</a></li>
 								</ul>
 							</li>
 							<li class="label1" data-label1="hot">
@@ -150,14 +152,27 @@
 				<li>
 					<a href="index.html">Trang chủ</a>
 				</li>
-				<li>
-					<a href="shop.html" class="label1 rs1" data-label1="hot">Shop</a>
-				</li>
+			
 				<li>
 					<a href="/blog">Giới thiệu</a>
 				</li>
 				<li>
-					<a href="#!">Pages</a>
+					<a href="#!">Bác sĩ tư vấn </a>
+					<ul class="sub-menu-m">
+					<li><a href="tu-van/hoi-dap-venpoten-suy-gian-tinh-mach-chan-s52.html">Suy giãn tĩnh mạch chân</a></li>
+								<li><a href="tu-van/hoi-dap-hemorcu-benh-tri-s60.html">Bệnh trĩ</a></li> 
+								<li><a href="tu-van/hoi-dap-enesol-ho-tro-tieu-hoa-s61.html">Hỗ trợ tiêu hóa</a></li> 
+								<li><a href="tu-van/hoi-dap-boswel-carnitor-benh-ly-khop-s62.html">Bệnh lý khớp</a></li> 
+								<li><a href="tu-van/hoi-dap-prolife-benh-ly-tim-mach-s53.html">Bệnh lý tim mạch</a></li>  
+         						<li><a href="tu-van/hoi-dap-deervet-suy-nhuoc-thieu-mau-s54.html">Tiểu đường</a></li>              
+         						<li><a href="tu-van/hoi-dap-metabosol-dai-thao-duong-tieu-duong-s56.html">Suy nhược | Thiếu máu</a></li>
+					</ul>
+					<span class="arrow-main-menu-m">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+					</span>
+				</li>
+				<li>
+					<a href="#!">Chuyên sâu về bệnh</a>
 					<ul class="sub-menu-m">
 						<li><a href="blog-detail.html">Blog Detail</a></li>
 						<li><a href="product-detail.html">Product Detail</a></li>
@@ -169,19 +184,10 @@
 					</span>
 				</li>
 				<li>
-					<a href="#!">Pages 2</a>
-					<ul class="sub-menu-m">
-						<li><a href="blog-detail.html">Blog Detail</a></li>
-						<li><a href="product-detail.html">Product Detail</a></li>
-						<li><a href="error.html">Error Page</a></li>
-						<li><a href="coming-soon.html">Coming Soon</a></li>
-					</ul>
-					<span class="arrow-main-menu-m">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-					</span>
+					<a href="shop.html" class="label1 rs1" data-label1="hot">Đặt hàng</a>
 				</li>
 				<li>
-					<a href="about.html">About</a>
+					<a href="about.html">Hướng dẫn</a>
 				</li>
 				<li>
 					<a href="contact.html">Liên hệ</a>
